@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.9.13",
+    "sequelize-typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "node": "^10.9.2",
+    "nodemon": "^3.1.0"
+  },
+  "name": "task",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "start": "node Api/server.js",
+    "server": "nodemon api/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
